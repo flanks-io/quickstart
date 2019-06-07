@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'Karla';
+    src: URL('Karla-Bold.ttf') format('truetype');
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* OVERLAY */
+
+position: absolute;
+left: 0%;
+right: -0.82%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(3, 9, 18, 0.7);
+backdrop-filter: blur(21.7463px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+/* Shape */
+
+position: absolute;
+left: 96.62%;
+right: 2.13%;
+top: 3.1%;
+bottom: 94.96%;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.5;
+
+
+/* Modal */
+
+position: absolute;
+left: 38.66%;
+right: 38.73%;
+top: 24.9%;
+bottom: 23.53%;
+
+background: #F5F5F5;
+
+
+/* Bank Tile */
+
+position: absolute;
+left: 53.87%;
+right: 10.22%;
+top: 60.08%;
+bottom: 22.81%;
+
+box-shadow: 30px 22px 34px rgba(0, 16, 34, 0.134652);
+
+
+/* Frame */
+
+position: absolute;
+left: 53.87%;
+right: 10.22%;
+top: 60.08%;
+bottom: 22.81%;
+
+background: #FFFFFF;
+
+
+/* Deutsche */
+
+position: absolute;
+width: 90px;
+height: 25px;
+left: 20px;
+top: 58px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 25px;
+
+color: #000000;
+
+
+
+/* Flanks_logo_dark (1) */
+
+position: absolute;
+width: 82px;
+height: 47px;
+left: 24px;
+top: 11px;
+
+background: url(Flanks_logo_dark (1).png);
+
+
+/* Bank Tile */
+
+position: absolute;
+left: 8.29%;
+right: 55.8%;
+top: 60.08%;
+bottom: 22.81%;
+
+box-shadow: 30px 22px 34px rgba(0, 16, 34, 0.134652);
+
+
+/* Frame */
+
+position: absolute;
+left: 8.29%;
+right: 55.8%;
+top: 60.08%;
+bottom: 22.81%;
+
+background: #FFFFFF;
+
+
+/* OpenBank */
+
+position: absolute;
+width: 99px;
+height: 25px;
+left: 16px;
+top: 58px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 25px;
+
+color: #000000;
+
+
+
+/* Flanks_logo_dark (1) */
+
+position: absolute;
+width: 82px;
+height: 47px;
+left: 24px;
+top: 11px;
+
+background: url(Flanks_logo_dark (1).png);
+
+
+/* Bank Tile */
+
+position: absolute;
+left: 53.87%;
+right: 10.22%;
+top: 32.89%;
+bottom: 50%;
+
+box-shadow: 30px 22px 34px rgba(0, 16, 34, 0.134652);
+
+
+/* Frame */
+
+position: absolute;
+left: 53.87%;
+right: 10.22%;
+top: 32.89%;
+bottom: 50%;
+
+background: #FFFFFF;
+
+
+/* CaixaBank */
+
+position: absolute;
+width: 99px;
+height: 25px;
+left: 16px;
+top: 58px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 25px;
+
+color: #000000;
+
+
+
+/* Flanks_logo_dark (1) */
+
+position: absolute;
+width: 82px;
+height: 47px;
+left: 24px;
+top: 11px;
+
+background: url(Flanks_logo_dark (1).png);
+
+
+/* Bank Tile */
+
+position: absolute;
+left: 8.29%;
+right: 55.8%;
+top: 32.89%;
+bottom: 50%;
+
+box-shadow: 30px 22px 34px rgba(0, 16, 34, 0.134652);
+
+
+/* Frame */
+
+position: absolute;
+left: 8.29%;
+right: 55.8%;
+top: 32.89%;
+bottom: 50%;
+
+background: #FFFFFF;
+
+
+/* Sabadell */
+
+position: absolute;
+width: 79px;
+height: 25px;
+left: 26px;
+top: 58px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 25px;
+
+color: #000000;
+
+
+
+/* Flanks_logo_dark (1) */
+
+position: absolute;
+width: 82px;
+height: 47px;
+left: 24px;
+top: 11px;
+
+background: url(Flanks_logo_dark (1).png);
+
+
+/* Bank Tile */
+
+position: absolute;
+left: 53.87%;
+right: 10.22%;
+top: 5.7%;
+bottom: 77.19%;
+
+box-shadow: 30px 22px 34px rgba(0, 16, 34, 0.134652);
+
+
+/* Frame */
+
+position: absolute;
+left: 53.87%;
+right: 10.22%;
+top: 5.7%;
+bottom: 77.19%;
+
+background: #FFFFFF;
+
+
+/* SANTANDER */
+
+position: absolute;
+width: 96px;
+height: 25px;
+left: 17px;
+top: 58px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 25px;
+
+color: #000000;
+
+
+
+/* Flanks_logo_dark (1) */
+
+position: absolute;
+width: 82px;
+height: 47px;
+left: 24px;
+top: 11px;
+
+background: url(Flanks_logo_dark (1).png);
+
+
+/* Bank Tile */
+
+position: absolute;
+left: 8.29%;
+right: 55.8%;
+top: 5.7%;
+bottom: 77.19%;
+
+box-shadow: 30px 22px 34px rgba(0, 16, 34, 0.134652);
+
+
+/* Frame */
+
+position: absolute;
+left: 8.29%;
+right: 55.8%;
+top: 5.7%;
+bottom: 77.19%;
+
+background: #FFFFFF;
+
+
+/* BBVA */
+
+position: absolute;
+width: 56px;
+height: 25px;
+left: 37px;
+top: 58px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 25px;
+
+color: #000000;
+
+
+
+/* Flanks_logo_dark (1) */
+
+position: absolute;
+width: 82px;
+height: 47px;
+left: 24px;
+top: 11px;
+
+background: url(Flanks_logo_dark (1).png);

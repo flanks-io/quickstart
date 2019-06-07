@@ -5,7 +5,6 @@ const app = express();
 app.use(express.static('public'));
 app.use(express.urlencoded());
 app.use(express.json());
-let user_token;
 
 
 app.post('/createUser', (req, res) => {
@@ -16,23 +15,31 @@ app.post('/createUser', (req, res) => {
             user: formData.username,
             password: formData.password,
             bank: formData.bank,
-        }).then(r => res.json(r.data))
+        })
+        .then(r => res.json(r.data))
         .catch(err => res.status(err.response.status).json(err.response.data));
     }
 });
 
 app.post('/pullData', (req, res) => {
-    if (!user_token) {
-        if (req.body && req.body.user_token) {
-            user_token = req.body.user_token;
-        } else {
-            res.status(401).json('Unauthorized');
-        }
+    if (!(req.body && req.body.user_token)) {
+        res.status(401).json('Unauthorized');
     }
     
-    flanks.getAccountData({ user_token })
+    flanks.getAccountData({ user_token: req.body.user_token })
         .then(r => res.json(r.data))
         .catch(err => res.status(err.response.status).json(err.response.data));
+});
+
+
+app.post('/deleteUser', (req, res) => {
+    if (req.body && req.body.user_token) {
+        flanks.deleteUser({ user_token: req.body.user_token })
+            .then(r => {
+                return res.json(r.data);
+            })
+            .catch(err => res.status(err.response.status).json(err.response.data));
+    }
 });
 
 
